@@ -1,0 +1,43 @@
+
+$ mkdir <your path>
+$ cd <your path>
+$ npm init
+
+# 系統會問你一些問題, 回答完了之後就會得到一個package.json
+
+{
+  "name": "NodeTutorial",
+  "version": "1.0.0",
+  "description": "Sample program used in node tutorial",
+  "main": "index.js",
+  "dependencies": {
+    "byline": "^4.2.1",
+    "express": "^4.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "derektu123@gmail.com",
+  "license": "ISC"
+}
+
+$ npm install <somepackage> --save
+
+# 把相關的package抓下來, 裝在local目錄. 同時更新package.json
+
+$ npm install <somepackage> -g
+
+# 把相關的package抓下來, 裝在gloabl目錄. 
+# 通常用在一些共用的tools上面, 例如tsc (typescript compiler), etc.
+
+$ npm uninstall <somepackage> --save
+
+# 移除這個package
+
+$ npm install
+
+# 當移轉到其他電腦時, npm會根據package.json把需要的packages抓下來
+
+
+

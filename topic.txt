@@ -1,0 +1,37 @@
+
+- Introduction to Node.js & NW.js
+
+- What is Node.js
+
+- How to install
+	- 從node.js網站
+	- 介紹 chocolatery
+		choco install nodejs
+		choco install git
+
+- Usage 
+	- javascript console
+	- run js program
+
+- 標準 Module
+	- 找一個fs 讀檔的範例, 計算line count
+
+- Sync v.s Async
+	- 修改原來的範例 (readAsync)
+
+- npm module
+	- 延續fs的範例, 找一個line-based的splitter
+
+- package.json
+
+- 如何寫自己的module
+
+- Http server
+
+- Express framework
+
+
+
+
+
+

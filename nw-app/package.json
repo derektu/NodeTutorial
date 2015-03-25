@@ -1,0 +1,14 @@
+{
+  "name": "nw-app",
+  "version": "1.0.0",
+  "main": "http://www.youtube.com",
+  "window": {
+    "title": "YouTube",
+    "toolbar": false,
+    "frame": true,
+    "position": "center",
+    "resizable": true,
+    "width": 1024,
+    "height": 800
+  }
+}
