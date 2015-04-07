@@ -20,6 +20,7 @@
 	- 修改原來的範例 (readAsync)
 
 - npm module
+	- how many npm modules you can use 
 	- 延續fs的範例, 找一個line-based的splitter
 
 - package.json
@@ -29,6 +30,13 @@
 - Http server
 
 - Express framework
+
+- What is NW.js
+
+- NW.js的執行方式
+	- 標準安裝
+
+- ExtWebNW的範例
 
 
 
